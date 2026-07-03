@@ -7,8 +7,7 @@ Analyzes voluntary wheel-running data from multi-channel recording systems to ch
 ## Repository Contents
 | File | Description |
 |------|-------------|
-| `combined_channels.xlsx` | Raw wheel-running data across 10 channels, plus generated pivot table sheets |
-| `pv_table.ipynb` | Main analysis notebook — data cleaning, pivot tables, modeling, and visualization |
+| `pv_table.ipynb` | Main analysis notebook — data cleaning, pivot tables, modeling, and visualization (outputs included; raw data omitted, see note above) |
 | `agg.py` | Preprocessing script (reference only — raw per-day files not included) that merged raw Excel exports into `combined_channels.xlsx` |
 
 ## Data
