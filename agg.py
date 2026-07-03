@@ -1,8 +1,12 @@
+# Note: This script was used locally to merge raw per-day Excel exports
+# (not included in this repo) into combined_channels.xlsx. Included here
+# for transparency into the preprocessing pipeline.
+
 import pandas as pd
 from pathlib import Path
 
-# Folder containing the Excel files
-folder = Path("/Users/nathan/Desktop/Mouse Running")
+# Folder containing the raw per-day Excel exports
+folder = Path("path/to/your/data")
 
 # Find all .xlsx files
 # Find all .xlsx files except temporary Excel lock files
