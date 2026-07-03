@@ -12,3 +12,11 @@ agg.py
 ~$day_1_channels_seperated.xlsx
 ~$day_3_channels_seperated.xlsx
 ~$day_20_channels_seperated.xlsx
+.DS_Store
+~$*.xlsx
+~$*.csv
+~$*.csv
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+combined_channels.xlsx
